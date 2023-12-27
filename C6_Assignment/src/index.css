@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+:root {
+  --primary__background: #ffcc00;
+  --primary__background__hover: #edbe00;
+  --secondary__background: #e6e6ff;
+  --primary__text: #000080;
+}

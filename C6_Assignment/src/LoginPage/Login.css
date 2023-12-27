@@ -1,0 +1,363 @@
+.login__backgroundLayer__custom {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* position: relative; */
+  position: relative;
+}
+
+.login__cardContainer {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login__cardContainer h1 {
+  font-family: "PT Serif";
+  text-align: center;
+  color: var(--primary__text);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.login__cardContainer h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.login__cardContainer p {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.login__imageArea {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 15px;
+  border: 2px solid #000000;
+  outline: 3px solid var(--primary__text);
+  outline-offset: 5px;
+}
+
+.login__imageArea img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonGroup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonStyle {
+  position: relative;
+  width: 250px;
+  height: auto;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  font-size: medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.buttonStyle:hover {
+  cursor: pointer;
+}
+
+.buttonStyle:nth-child(1) {
+  background-color: var(--primary__background);
+}
+
+.buttonStyle:nth-child(1):hover {
+  background-color: var(--primary__background__hover);
+}
+
+.buttonStyle:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid var(--primary__background);
+}
+
+.buttonStyle:nth-child(2):hover {
+  background-color: var(--primary__background);
+}
+
+.cardContainer {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.1);
+  transition: transform 0.3s, top 0.3s, visibility 0.3s;
+  visibility: hidden;
+  box-shadow: 0px 0px 7px black;
+}
+
+.cardContainer__signup {
+  position: absolute;
+  width: 1000px;
+  height: 650px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.1);
+  transition: transform 0.3s, top 0.3s, visibility 0.3s;
+  visibility: hidden;
+  box-shadow: 0px 0px 7px black;
+}
+
+/* .loginbutton {
+  visibility: hidden;
+  display: none;
+} */
+
+.openPopup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.imageSideContainer {
+  position: relative;
+  width: 55%;
+  height: 100%;
+}
+
+.imageSideContainer__signup {
+  position: relative;
+  width: 55%;
+  height: 100%;
+  background-color: #f7f7f7;
+  margin-left: 50px;
+}
+
+.imageSideContainer h1,
+.imageSideContainer__signup h1 {
+  font-family: "PT Serif";
+  text-align: center;
+  color: var(--primary__text);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.imageSideContainer img,
+.imageSideContainer__signup img {
+  position: absolute;
+  object-fit: fill;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.loginDetails {
+  position: relative;
+  width: 40%;
+  height: 94%;
+  background-color: var(--secondary__background);
+  left: 2.5%;
+  top: 3%;
+  border-radius: 10px;
+}
+
+.loginDetails h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+  /* margin-bottom: 25px; */
+}
+
+.inputFieldGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 15px 0;
+}
+
+.inputFieldGroup label {
+  position: relative;
+  font-size: large;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.inputFieldGroup input,
+.inputFieldGroup select {
+  position: relative;
+  font-size: large;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  padding: 5px 10px;
+  transition: all 0.1s ease;
+}
+
+.inputFieldGroup input:focus,
+.inputFieldGroup select:focus {
+  outline: 3px solid #4d4dff;
+}
+
+.inputFieldGroup p {
+  position: relative;
+  margin: 0;
+  margin-top: 2px;
+  color: red;
+}
+
+.cardContainer h4,
+.cardContainer__signup h4 {
+  position: relative;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.iconGroup {
+  position: relative;
+  width: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon {
+  position: relative;
+  font-size: 35px;
+  color: #000080;
+}
+
+.closeIcon {
+  position: absolute;
+  font-size: 20px;
+  float: right;
+  bottom: 0px;
+  margin: 10px;
+  right: 5px;
+}
+
+.closeIcon:hover,
+.icon:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .cardContainer {
+    width: 900px;
+  }
+  .cardContainer__signup {
+    width: 900px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .cardContainer {
+    width: 700px;
+  }
+  .inputFieldGroup {
+    width: 250px;
+  }
+  .cardContainer__signup {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .cardContainer {
+    width: 300px;
+  }
+  .inputFieldGroup {
+    width: 150px;
+  }
+  .cardContainer__signup {
+    width: 400px;
+  }
+  .imageSideContainer,
+  .imageSideContainer__signup {
+    display: none;
+  }
+  .imageSideContainer h1,
+  .imageSideContainer__signup h1 {
+    display: none;
+  }
+  .imageSideContainer img,
+  .imageSideContainer__signup img {
+    display: none;
+  }
+  .loginDetails {
+    width: 94%;
+  }
+  .inputFieldGroup {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cardContainer {
+    width: 300px;
+  }
+  .inputFieldGroup {
+    width: 150px;
+  }
+  .cardContainer__signup {
+    width: 400px;
+  }
+  .imageSideContainer,
+  .imageSideContainer__signup {
+    display: none;
+  }
+  .imageSideContainer h1,
+  .imageSideContainer__signup h1 {
+    display: none;
+  }
+  .imageSideContainer img,
+  .imageSideContainer__signup img {
+    display: none;
+  }
+  .loginDetails {
+    width: 94%;
+  }
+  .inputFieldGroup {
+    width: 250px;
+  }
+}

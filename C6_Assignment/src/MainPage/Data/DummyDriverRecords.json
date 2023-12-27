@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "driverName": "Prit Shah 1",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "70",
+    "arrivalTime": "5"
+  },
+  {
+    "id": 2,
+    "driverName": "Prit Shah 2",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "120",
+    "arrivalTime": "5"
+  },
+  {
+    "id": 3,
+    "driverName": "Prit Shah 3",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "100",
+    "arrivalTime": "5"
+  },
+  {
+    "id": 4,
+    "driverName": "Prit Shah 4",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "110",
+    "arrivalTime": "5"
+  },
+  {
+    "id": 5,
+    "driverName": "Prit Shah 5",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "90",
+    "arrivalTime": "5"
+  },
+  {
+    "id": 6,
+    "driverName": "Prit Shah 6",
+    "fullStar": "3",
+    "halfStar": "1",
+    "emptyStar": "1",
+    "reviewCounts": "50000",
+    "awayDistance": "105",
+    "arrivalTime": "5"
+  }
+]
